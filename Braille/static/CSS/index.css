@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(90, 216, 210));
+    overflow-y: hidden;
+}
+
+#form-div {
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 25%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#selectedFile {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+input#fakeInput {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    display: block;
+    padding: 11px 0;
+    box-sizing: border-box;
+    border: initial;
+    height: 3em;
+    border: 1px solid black;
+}
+
+#buttonImage {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #2a6e70;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 8px 8px 0px;
+    height: 1.25em;
+    cursor: pointer;
+}
+
+#fakeDiv {
+    width: 500px;
+    position: relative;
+    display: inline-block;
+}
+
+#button-div {
+    margin-top: 10px;
+}
+
+#logo {
+    position: absolute;
+    letter-spacing: 7px;
+    font-size: 130px;
+    letter-spacing: 10px;
+    left: 8%;
+    top: 8%;
+    z-index: -1;
+    opacity: 0.035;
+
+}
+
+#button {
+    margin-left: 40%;
+    padding: 8px 20px 8px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#img-div {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 40%;
+    width: 60%;
+}
+
+#text-div {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 60%;
+}
+
+#audio-div {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 60%;
+}

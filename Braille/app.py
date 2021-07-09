@@ -38,6 +38,7 @@ def model_predict(seg, model):
 
 def image_segmentation(img):
     width_of_braille_cell = 55
+    print(img.shape)
     height_of_braille_image, width_of_braille_image, ch = img.shape
     no_of_braille_cells = width_of_braille_image // width_of_braille_cell
     segments = []

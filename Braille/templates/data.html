@@ -6,81 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../static/CSS/data.css" rel="stylesheet">
     <title>Converted</title>
-    <style>
-        #logo {
-            position: absolute;
-            letter-spacing: 7px;
-            font-size: 130px;
-            letter-spacing: 10px;
-            left: 8%;
-            top: 8%;
-            z-index: -1;
-            opacity: 0.035;
-
-        }
-
-        body {
-            padding: 0;
-            margin: 0;
-            background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(0, 255, 0, 1));
-            overflow-y: hidden;
-        }
-
-        img {
-            width: 60%;
-            border: 2px solid black;
-        }
-
-        #one {
-            margin-top: 8%;
-            margin-left: 25%;
-            border: 2px solid grey;
-            width: 60%;
-            padding: 10px;
-            border-radius: 15px;
-        }
-
-        h3 {
-            text-decoration: underline;
-        }
-
-        #audio {
-            outline: none;
-        }
-
-        .back-button {
-            border: none;
-            background: green;
-            color: white;
-            padding: 8px 20px 8px 20px;
-            font-size: 16px;
-            border-radius: 50%;
-            border-radius: 10px;
-            outline: none;
-            cursor: pointer;
-        }
-
-        #button-div{
-            position: relative;
-            margin-top: 10px;
-            margin-left: 50%;
-        }
-
-        #icon{
-            background: none;
-            font-size: 50px;
-            outline: none;
-            border: none;
-            margin-left: 10%;
-            cursor:pointer; 
-        }
-        span{
-            font-size: 30px;
-            font-weight: 1000;
-            
-        }
-    </style>
 </head>
 
 <body>
@@ -91,8 +18,7 @@
         </div>
         <div id="none">
             <h1>Text</h1>
-            <!-- <h3>{{ final_text }}</h3> -->
-            <h3>my name is satyendra prasad</h3>
+            <h3>{{ final_text }}</h3>
         </div>
         <div id="audio">
             <h4><span>Speech : </span>Please click on mic to here</h4>
@@ -104,7 +30,7 @@
     </div>
 
     <div id="button-div">
-        <a href="index.html"><button class="back-button">Go back</button></a>
+        <a href="/"><button class="back-button">Go back</button></a>
     </div>
     <script>
         function play(){
